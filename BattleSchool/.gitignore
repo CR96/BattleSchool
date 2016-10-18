@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# Background music (not included for copyright reasons)
+/app/src/main/res/raw/bgm1.*
+/app/src/main/res/raw/bgm2.*
