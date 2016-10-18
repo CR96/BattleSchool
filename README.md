@@ -1,4 +1,8 @@
 # Battle School
+
+
+<img src="BattleSchool/app/src/main/res/drawable-v21/splash.png" alt="Battle School insignia" style="width: 200px;"/>
+
 ### Android application created as part of the final project for Honors College 202 "Coming to a Classroom Near You," Oakland University, June 2016
 
 This project is intended to be a <b>UI design showcase*</b>. It is an interactive visual outline of a fictional game that could take place in the world of <i>Ender's Game</i> by Orson Scott Card.
