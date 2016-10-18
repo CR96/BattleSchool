@@ -1,7 +1,6 @@
 # Battle School
 
-
-<img src="BattleSchool/app/src/main/res/drawable-v21/splash.png" alt="Battle School insignia" style="width: 200px;"/>
+<img src="BattleSchool/app/src/main/res/drawable-v21/splash.png" alt="Battle School insignia" width="128px" height="128px"/>
 
 ### Android application created as part of the final project for Honors College 202 "Coming to a Classroom Near You," Oakland University, June 2016
 
