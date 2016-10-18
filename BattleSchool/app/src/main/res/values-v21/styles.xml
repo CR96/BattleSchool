@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:statusBarColor">@color/windowBackground</item>
+    </style>
+
+    <!--Army colors-->
+    <style name="DragonTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/dragon</item>
+        <item name="colorPrimaryDark">@color/dragondark</item>
+        <item name="colorButtonNormal">@color/dragonaccent</item>
+    </style>
+
+    <style name="PhoenixTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/phoenix</item>
+        <item name="colorPrimaryDark">@color/phoenixdark</item>
+        <item name="colorButtonNormal">@color/phoenixaccent</item>
+    </style>
+
+    <style name="RabbitTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/rabbit</item>
+        <item name="colorPrimaryDark">@color/rabbitdark</item>
+        <item name="colorButtonNormal">@color/rabbitaccent</item>
+    </style>
+
+    <style name="RatTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/rat</item>
+        <item name="colorPrimaryDark">@color/ratdark</item>
+        <item name="colorButtonNormal">@color/rataccent</item>
+    </style>
+
+    <style name="SalamanderTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/salamander</item>
+        <item name="colorPrimaryDark">@color/salamanderdark</item>
+        <item name="colorButtonNormal">@color/salamanderaccent</item>
+    </style>
+
+</resources>

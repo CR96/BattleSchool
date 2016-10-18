@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme-->
+    <color name="colorPrimary">#455a64</color>
+    <color name="colorPrimaryDark">#37474f</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="windowBackground">#212121</color>
+
+    <!--Armies-->
+    <color name="dragon">#d84315</color>
+    <color name="dragondark">#bf360c</color>
+    <color name="dragonaccent">#2196f3</color>
+    <color name="phoenix">#d84315</color>
+    <color name="phoenixdark">#bf360c</color>
+    <color name="phoenixaccent">#2196f3</color>
+    <color name="rabbit">#d32f2f</color>
+    <color name="rabbitdark">#b71c1c</color>
+    <color name="rabbitaccent">#00c853</color>
+    <color name="rat">#795548</color>
+    <color name="ratdark">#5d4037</color>
+    <color name="rataccent">#4caf50</color>
+    <color name="salamander">#33691e</color>
+    <color name="salamanderdark">#1b5e20</color>
+    <color name="salamanderaccent">#d50000</color>
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Battle School</string>
+    <string name="app_name_splash">BATTLE SCHOOL</string>
+
+    <!--Titles-->
+    <string name="title_activity_receiver">Connect Receiver</string>
+    <string name="title_activity_main">Select an Army</string>
+    <string name="title_activity_prompt">First Battle</string>
+
+    <!--Receiver-->
+    <string name="connect">Connect the neural receiver included with your Battle School student kit.</string>
+    <string name="searching">Waiting for Link</string>
+    <string name="found">Connected</string>
+
+    <!--Upload-->
+    <string name="win">You have what it takes to be a commander! Your game data will be sent to Battle School for review.</string>
+    <string name="uploading">Uploading</string>
+    <string name="sent">Data Sent</string>
+
+    <!--Armies-->
+    <string name="dragon">Dragon</string>
+    <string name="phoenix">Phoenix</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="rat">Rat</string>
+    <string name="salamander">Salamander</string>
+
+    <!--Army Descriptions-->
+    <string name="dragondesc">Once the underdog of Battle School, the Dragon Army has been undefeated since Ender Wiggin was installed as commander. This army is unique in that it consists of five toons of eight men rather than the standard four toons of ten. All Dragons are expected to become exceptional commanders.</string>
+
+    <string name="phoenixdesc">Led by the strong-willed Petra Arkanian, the Phoenix Army excels in countering complex attack formations. Phoenixes are known to think creatively when necessary, often beating the other armies in unusual or unexpected ways.</string>
+
+    <string name="rabbitdesc">The Rabbit Army is known as one of Battle School\'s more compassionate armies. While its members are no pushovers, those who stay on their good side may find them willing to offer protection, as well as a few helpful tips on the side.</string>
+
+    <string name="ratdesc">Commanded by Rosen, better known as "Rose the Nose," the Rat Army talks tough but lacks teeth. Its members are loyal and obedient, but largely considered inept and lacking in battle skills. Some Rats, however, show promise despite the army\'s stigma.</string>
+
+    <string name="salamanderdesc">While the members of Salamander Army are the least experienced Battle School candidates, they are no less energetic and cunning. Many unsuspecting armies have lost matches against these newcomers by making the mistake of underestimating their abilities. Salamanders know how to use their low ranking to their advantage; when there\'s nowhere to go but up, there\'s nothing to lose.</string>
+
+    <string name="chooseonce">Choose wisely. Your selection is final.</string>
+
+    <!--Prompts-->
+    <string name="p1">You have arrived alongside your new army at the battle room. As you wait for your gate to open, you discuss potential strategies. What is your plan of attack for your first battle?</string>
+<!--<string name="p2">Prompt 2</string>
+    <string name="p3">Prompt 3</string>
+    <string name="p4">Prompt 4</string>
+    <string name="p5">Prompt 5</string>
+    <string name="p6">Prompt 6</string>
+    <string name="p7">Prompt 7</string>
+    <string name="p8">Prompt 8</string>
+    <string name="p9">Prompt 9</string>
+    <string name="p10">Prompt 10</string>
+    <string name="p11">Prompt 11</string>
+    <string name="p12">Prompt 12</string>
+    <string name="p13">Prompt 13</string>
+    <string name="p14">Prompt 14</string>
+    <string name="p15">Prompt 15</string>
+    <string name="p16">Prompt 16</string>
+    <string name="p17">Prompt 17</string>
+    <string name="p18">Prompt 18</string>
+    <string name="p19">Prompt 19</string>
+    <string name="p20">Prompt 20</string>-->
+
+    <!--Responses-->
+    <string name="r1_a">Attempt to trick the opposing army by entering the battle in formation.</string>
+    <string name="r1_b">Scatter upon entry, targeting individual members of the opposing army.</string>
+    <string name="r1_c">Have a specific player aim for the enemy\'s gate while the other players create a diversion.</string>
+    <string name="r1_d">Launch directly at the opposing army and hope for the best.</string>
+
+    <!--Buttons-->
+    <string name="confirm">Confirm</string>
+
+</resources>

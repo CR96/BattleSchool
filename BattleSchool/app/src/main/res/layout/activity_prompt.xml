@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.PromptActivity">
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/white"
+        android:text="@string/p1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_description">
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdo_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/r1_a"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdo_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/r1_b"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdo_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/r1_c"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdo_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/r1_d"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"/>
+    </RadioGroup>
+
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp">
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/confirm"
+            style="@style/Widget.AppCompat.Button.Colored" />
+    </android.support.v7.widget.ButtonBarLayout>
+
+
+</RelativeLayout>

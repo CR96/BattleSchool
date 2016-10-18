@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.corey.endersgame.activity.ReceiverActivity"
+    android:padding="32dp">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level"
+        android:layout_above="@+id/lin"
+        android:src="@drawable/ic_usb"
+        android:layout_alignEnd="@+id/level"
+        android:layout_alignStart="@+id/level"
+        android:scaleType="center"
+        android:id="@+id/imageView"
+        android:contentDescription="@string/title_activity_receiver"/>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/prog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_circle"
+            android:visibility="gone"
+            android:contentDescription="@string/found"/>
+
+        <TextView
+            android:id="@+id/txtConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/searching"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_margin="16dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
